@@ -1,18 +1,24 @@
-// A number is valid if it is positive or even. Take input from user and check its validity
 #include<stdio.h>
 
 
-int main (){
-    int a;
-    printf("Enter a numbers:");
-    scanf("%d",&a);
-
-    if(a>=0 && a%2==0)
-        printf("%d valid",a);
-    else
-        printf("%d Not valid",a);
+int main()
+{
+    int result;
     
+    printf("Enter Your  Result: ");
+    scanf("%d",&result);
+    printf("Enter Your Result: ");
+    if(result>=0 && result<=100)
+    if(result >=80)
+    printf("A+");
+    else if(result>=70)
+    printf("A");
+    else if(result>=60)
+    printf("A-");
+    else if(result>=40)
+    printf("B");
+    else printf("Faild");
+    else printf("Unvalide");
 
     return 0;
 }
-
