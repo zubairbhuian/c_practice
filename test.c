@@ -2,16 +2,9 @@
 #include<stdio.h>
 
 
-int main (){
-    int a;
-    printf("Enter a numbers:");
-    scanf("%d",&a);
-
-    if(a>=0 && a%2==0)
-        printf("%d valid",a);
-    else
-        printf("%d Not valid",a);
-    
+int main ()
+{
+   printf("Hello");
 
     return 0;
 }
